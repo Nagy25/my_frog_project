@@ -16,6 +16,7 @@ Handler middleware(Handler handler) {
     // Execute code after request is handled.
 
     // Return a response.
-    return name.isNotEmpty ? response : Response(statusCode: 401);
+    //return name.isNotEmpty ? response : Response(statusCode: 401);
+    return response;
   };
 }
